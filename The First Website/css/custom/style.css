@@ -1,95 +1,160 @@
-header{
-	background: red;
+@import "https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lobster|Anton|Indie+Flower";
+
+/* Setting background color of full body */
+body {
+	background: #FF8C00;
+}
+
+/* Setting styles of header portion */
+header {
+	background: #FF4500;
 	height: 100px;
 	margin-bottom: 60px;
 	width: 100%;
+	position: fixed;
+	font-family: "Indie Flower";
+	font-weight: bold;
 }
 
-header{
-	<!-- margin-top: 250px; -->
+/* Aligning content of all Headings to center */
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
 }
-header img{
+
+/* Hiding bullets of ul */
+ ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+/* Setting logo size and location */
+header img {
 	float: left;
 	width: 25%;
 	height: 100%;
 }
 
-header li{
+/* changing default indentation of li */
+header li {
 	display: inline;
+	font-size: 30px;
 }
 
-header a{
+/* removing underline from all anchors */
+a {
 	text-decoration: none;
+}
+
+/* making anchor underline when moved over */
+a:hover {
+	text-decoration: underline;
+	font-style: italic;
 	font-size: 20px;
 }
 
-header nav{
+/* setting size of a in header portion */
+header a {	
+	font-size: 20px;
+}
+
+/* setting location of nav division */
+header nav {
 	float: right;
 	height: 100%;
 	padding-top: 30px;
 	padding-right: 60px;
 }
 
-section{
+/* clearing previous floats */
+section {
 	clear: both;
+	font-family: Anton;
 }
 
-.first img{
+/* padding extra space */
+.first {
+	padding-top: 110px;
+}
+
+/* setting images of first section */
+.first img {
 	width: 100%;
 	height: 50%;
 	margin-bottom: 5px;
 }
 
-.first h3{
+/* defining h3 of first section */
+.first h3 {
 	margin-bottom: 5px;
 	text-align: center;
+	text-shadow: 5px 2px 0 yellow;
 }
 
-.hero-unit{
+/* locating the hero unit */
+.hero-unit {
 	height: 300px;
 	width: 100%;
 	margin-top: 60px;
 	margin-bottom: 60px;
 }
 
-.hero-unit img{
+/* locating the hero unit image */
+.hero-unit img {
 	width: 100%;
 	height: 100%;
 }
 
-.container_12,.grid_4{
-	border: 1px solid black;
+/* fixing the height of container_12 and grid_4 class */
+.container_12,.grid_4 {
 	height: 300px;
 }
 
-.grid_4{
+/* setting margins for grid_4 class */
+.grid_4 {
 	margin-left: 0;
 	margin-right: 16px;
 	padding-left: 0;
 	padding-right: 0;
 }
 
-.second img{
+/* setting font-family for second section */
+.second {
+	font-family: Lobster;
+}
+
+/* setting size of image in second section */
+.second img {
 	width: 100%;
 	height: 100%;
 	margin-top: 10px;
 }
 
+/* setting top margin of 3 rows in second section */
 .first-row,.second-row,.third-row {
-	margin-top: 50px;
+	margin-top: 5px;
 
 }
 
-footer{
+/* styling the footer */
+footer {
 	width: 100%;
 	height: 350px;
 	background: black;
 	color: white;
 	margin-top: 30px;
+	padding-top: 0;
 }
 
+/* styling columns in footer */
 .social,.refs,.about {
 	margin-top: 50px;
 	font-size: 15px;
+	font-family: "Gloria Hallelujah";
 }
+
+/* changing color of anchor in social */
+.social a{
+	color: white;
+}
+
 
